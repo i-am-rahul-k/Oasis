@@ -1,0 +1,75 @@
+body {
+    background-color: #f5f5f5;
+}
+
+h2 {
+ font-family: Verdana, Geneva, sans-serif;
+ letter-spacing:0.1rem;
+ text-align: center;
+ margin-top:50px;
+ color: black;
+}
+
+.maindiv {
+ width:300px;
+ height:350px;
+ position:absolute;
+ left:50%;
+ top:50%;
+ transform:translate(-50%, -50%);
+ background-image: url(Mask1.jpeg);
+ background-size: 100% 100%;
+ box-shadow: 5px 5px 11px rgba(128,128,128,0.4),-5px -5px 11px rgba(255, 255, 255, 0.1);
+ animation: slider 20s infinite linear;
+}
+
+@keyframes slider{
+ 0%{background-image: url('Mask1.jpeg');}
+ 25% {background-image: url('Mask.jpeg');}
+ 45% {background-image: url('Mask2.jpg');}
+ 75%{background-image: url('Mask3.jpeg');}
+}
+
+.contentwrapper {
+         margin-top:55%;
+        width: 100%;
+    }
+    
+.contentcolumn {
+    margin: 0 350px 0 350px;
+}
+
+.innertext button {
+    border: none;
+    outline: none;
+    height: 45px;
+    width: 120px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    background-color: #F5F5F5;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    box-shadow: 5px 5px 11px rgba(128,128,128,0.2),-5px -5px 11px rgba(255, 255, 255, 0.075);
+}
+
+.innertext {
+    margin: 20px;
+    font-family: sans-serif;
+    color: #5E5E5E;
+    margin-top: 20px;
+}
+
+.innertext button:hover {
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+.innertext button:active {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+a {
+    color: #0c0c0c;
+}

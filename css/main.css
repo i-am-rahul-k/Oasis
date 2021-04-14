@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.head {
+    padding: 5em;
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+    font-weight: 500;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    
+}
+
+.search {
+    align-items: center;
+    justify-content: center;
+    margin-left: 13em;
+}
+
+.search input {
+    height: 50px;
+    width: 70%;
+    border: 0;
+    outline: 0;
+    padding: 15px;
+    background-color: #F5F5F5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    box-shadow: inset  -5px -5px 11px rgba(255, 255, 255, 0.075), inset 5px 5px 11px rgba(128,128,128,0.2);  
+}
+
+.search button {
+    margin-left: 30px;
+    height: 45px;
+    width: 120px;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    background-color: #F5F5F5;
+    font-size: 15px;
+    letter-spacing: 1px;
+     text-transform: uppercase;
+    border-radius: 15px;
+    box-shadow: 5px 5px 11px rgba(128,128,128,0.2),-5px -5px 11px rgba(255, 255, 255, 0.075);  
+}
+
+button:hover {
+    box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+}
+
+button:active {
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
+}
+
+.nav {
+    margin: auto;
+    padding: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Monsterrat' , sans-serif;
+    background:#F5F5F5;
+    margin-top: 12px;
+    
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    min-width: 130px;
+    font-weight: 900;
+    padding: 15px;
+    margin: 0 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px rgba(128,128,128,0.2),-5px -5px 11px rgba(255, 255, 255, 0.075); 
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.social h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 48px 0;
+    color: #0c0c0c;
+}
+
+.btn-container{
+    display: flex;
+}
+
+.btn{
+    background-color: e8eff5 ;
+    height: 70px;
+    width: 70px;
+    margin: 0 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 400ms;
+
+    box-shadow: 7px 7px 15px #bbcfda,-4px -4px 13px #fff;
+    inset: 4px 4px 8px rgba(209,217,230,0.2), inset -8px -8px 8px rgba(255,255,255,0.2);
+    
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.btn i{
+    font-size: 40px;
+    color: #0c0c0c;
+    transition: all 400ms;
+}
+
+.btn:hover i{
+    transform: scale(0.96);
+}
+
+.btn:hover {
+    box-shadow: 4px 2px 18px #bbcfda,-4px -4px 13px #fff;
+    inset: 6px 6px 16px rgba(209,217,230,0.8), inset -8px -8px 8px rgba(255,255,255,0.2);
+    transform: translateY(2px);
+}
+
+.nav a {
+    color: #0c0c0c;
+}
+
+.cards .one p{
+    padding:40px;
+    margin: 100px auto;
+    background: #F5F5F5;
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid rgba(255,255,255,0.294);
+    border-radius: 14px;
+    box-shadow: 5px 5px 11px rgba(128,128,128,0.4),-5px -5px 11px rgba(255, 255, 255, 0.1);
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.cards h1{
+    margin-left: 15px;
+    margin-top: 70px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.cards .two p {
+    padding:40px;
+    margin: 100px auto;
+    background: #F5F5F5;
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid rgba(255,255,255,0.294);
+    border-radius: 14px;
+    box-shadow: 5px 5px 11px rgba(128,128,128,0.4),-5px -5px 11px rgba(255, 255, 255, 0.1);
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase; 
+}
+
+.cards .three p {
+    padding:40px;
+    margin: 100px auto;
+    background: #F5F5F5;
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid rgba(255,255,255,0.294);
+    border-radius: 14px;
+    box-shadow: 5px 5px 11px rgba(128,128,128,0.4),-5px -5px 11px rgba(255, 255, 255, 0.1);
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.cards .four p {
+    padding:40px;
+    margin: 100px auto;
+    background: #F5F5F5;
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid rgba(255,255,255,0.294);
+    border-radius: 14px;
+    box-shadow: 5px 5px 11px rgba(128,128,128,0.4),-5px -5px 11px rgba(255, 255, 255, 0.1);
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase; 
+}
+
+.cards .one p:hover {
+    box-shadow: 4px 2px 18px #bbcfda,-4px -4px 13px #fff;
+    inset: 6px 6px 16px rgba(209,217,230,0.8), inset -8px -8px 8px rgba(255,255,255,0.2);
+    transform: translateY(2px);
+}
+.cards .two p:hover {
+    box-shadow: 4px 2px 18px #bbcfda,-4px -4px 13px #fff;
+    inset: 6px 6px 16px rgba(209,217,230,0.8), inset -8px -8px 8px rgba(255,255,255,0.2);
+    transform: translateY(2px);
+}
+.cards .three p:hover {
+    box-shadow: 4px 2px 18px #bbcfda,-4px -4px 13px #fff;
+    inset: 6px 6px 16px rgba(209,217,230,0.8), inset -8px -8px 8px rgba(255,255,255,0.2);
+    transform: translateY(2px);
+}
+.cards .four p:hover {
+    box-shadow: 4px 2px 18px #bbcfda,-4px -4px 13px #fff;
+    inset: 6px 6px 16px rgba(209,217,230,0.8), inset -8px -8px 8px rgba(255,255,255,0.2);
+    transform: translateY(2px);
+}
+
+.cards .one a {
+    color: #0c0c0c;
+}
+
+.cards .two a {
+    color: #0c0c0c;
+}
+
+.cards .three a {
+    color: #0c0c0c;
+}
+
+.cards .four a {
+    color: #0c0c0c;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Monsterrat' , sans-serif;
+}
+
+script {
+    margin-left: 25em;
+    margin-top: 3em;
+    color: #0c0c0c;
+}
+
+ p {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    width: 250px;
+    border-radius: 15px;
+    box-shadow: inset  -5px -5px 11px rgba(255, 255, 255, 0.075), inset 5px 5px 11px rgba(128,128,128,0.4);
+}
+

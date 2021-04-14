@@ -1,0 +1,43 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="css/chat.css">
+
+<script>
+
+know={
+
+"Hello": "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Hi there!",
+"hello": "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Hi there!",
+"HELLO": "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Hi there!",
+"I have a doubt": "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Thanks for reaching us you can send your queries/doubt to name@emample.com"
+};
+
+function talk() {
+var user= document.getElementById("userBox").value;
+document.getElementById("userBox").value="";
+document.getElementById("chatLog").innerHTML += user+"<br>";
+
+if (user in know) 
+{
+document.getElementById("chatLog").innerHTML +=know[user] +"<br>";
+}
+else
+{
+document.getElementById("chatLog").innerHTML +="I don't Understand. Suggested Question:- 'Hello' or 'I have a doubt' <br>";
+}
+}
+</script>
+
+</head>
+
+<body>
+
+<p id="chatLog"> ChatBot By Oasis. <br></p> 
+
+<input id="userBox" type="text" onkeydown="if(event.keyCode==13) {talk()}">
+
+
+</body>
+
+</html>
